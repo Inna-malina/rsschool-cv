@@ -345,22 +345,31 @@ pre {
 
 .courses-contacts__rs {
     background-image: url(../img/rs.png);
+    transition: all 0.3s ease;
 }
 
 .courses-contacts__html {
     background-image: url(../img/html.png);
+    transition: all 0.3s ease;
 }
 
 .courses-contacts__udeme {
     background-image: url(../img/udeme.png);
+    transition: all 0.3s ease;
 }
 
 .courses-contacts__itgid {
     background-image: url(../img/itgid.png);
+    transition: all 0.3s ease;
 }
 
 .courses-contacts__spb {
     background-image: url(../img/spb.png);
+    transition: all 0.3s ease;
+}
+
+.courses-contacts:hover {
+    transform: scale(1.2);
 }
 
 .footer-page__data {
@@ -654,10 +663,16 @@ pre {
     .portfolio-contaner__title {
         font-size: 16px;
     }
+
+
 }
 
 @media (max-width: 370px) {
     .examplecode-page__code {
         font-size: 8px;
+    }
+
+    .myportfolio-page__portfolio-contaner>*:not(:last-child) {
+        margin: 0px 0px 40px 0px;
     }
 }
