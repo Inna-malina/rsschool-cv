@@ -55,6 +55,44 @@ main>:nth-child(even) {
     color: rgba(0, 0, 0, 0.7);
 }
 
+.deskription-header__contaner-leng {
+    position: fixed;
+    right: 100px;
+}
+
+.leng-header {
+    background-color: #00053869;
+}
+
+.leng-header__contaner {
+    display: flex;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.leng-header__contaner>*:not(:last-child) {
+    margin-right: 10px;
+}
+
+.leng-header__contaner p {
+    cursor: pointer;
+    margin: 0px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.switch-on {
+    color: white;
+}
+
+
+.switch-off {
+    color: #000538;
+}
+
 /* -----------bunner-page----------- */
 .bunner-page {
     position: relative;

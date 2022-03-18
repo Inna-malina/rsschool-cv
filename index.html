@@ -21,7 +21,7 @@
                     <img src="img/my_photo.jpg" alt="my_photo">
                 </div>
                 <div class="bunner-page__deskription deskription-bunner">
-                    <h1 class="deskription-bunner__title">
+                    <h1 data-translater="name" class="deskription-bunner__title">
                         Cherkashina Inna Aleksandrovna
                     </h1>
                     <ul class="deskription-bunner__list">
@@ -37,6 +37,14 @@
                     </ul>
 
                 </div>
+                <div class="deskription-header__contaner-leng leng-header">
+                    <div class="leng-header__contaner">
+                        <p href="#" class="switch__en switch-on">en </p>
+                        <p>/</p>
+                        <p href="#" class="switch__ru switch-off">ru</p>
+                    </div>
+                </div>
+
             </div>
             <div class="bunner-page__ellipse ellipse-one"></div>
             <div class="bunner-page__ellipse ellipse-two"></div>
@@ -47,28 +55,30 @@
                 <div class="nav-page__contaner center">
                     <div class="nav-page__list-box">
                         <ul class="list-box">
+
                             <li>
-                                <a href="#aboutme">
-                                    About me
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#myskills">
+                                <a data-translater="skills" href="#myskills">
                                     My skills
                                 </a>
                             </li>
                             <li>
-                                <a href="#myportfolio">
+                                <a data-translater="portfolio" href="#myportfolio">
                                     Portfolio
                                 </a>
                             </li>
                             <li>
-                                <a href="#myexperience">
+                                <a data-translater="experience" href="#myexperience">
                                     My experience
                                 </a>
                             </li>
                             <li>
-                                <a href="#footer">
+                                <a data-translater="about" href="#aboutme">
+                                    About me
+                                </a>
+                            </li>
+
+                            <li>
+                                <a data-translater="contacts" href="#footer">
                                     Contacts
                                 </a>
                             </li>
@@ -77,20 +87,7 @@
                 </div>
             </nav>
 
-            <section id="aboutme" class="aboutme-page">
-                <div class="aboutme-page__contaner center">
-                    <div class="aboutme-page__description box-description">
-                        <h2 class="aboutme-page__title box-description__title">
-                            About me
-                        </h2>
-                        <div class="aboutme-page__text box-description__text">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum inventore reprehenderit
-                            vero ratione quis laudantium voluptatibus iusto, cupiditate assumenda quos? Magnam dolor
-                            accusantium eveniet cum accusamus assumenda dolorum culpa dolore.
-                        </div>
-                    </div>
-                </div>
-            </section>
+
 
             <section id="myskills" class="myskills-page">
                 <div class="myskills-page__contaner center">
@@ -519,6 +516,37 @@ slider();
                     </div>
                 </div>
             </section>
+
+            <section id="aboutme" class="aboutme-page">
+                <div class="aboutme-page__contaner center">
+                    <div class="aboutme-page__description box-description">
+                        <h2 data-translater="about" class="aboutme-page__title box-description__title">
+                            About me
+                        </h2>
+                        <div data-translater="about-description-1" class="aboutme-page__text box-description__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div data-translater="about-description-2" class="aboutme-page__text box-description__text">
+                            Voluptatum inventore reprehenderit
+                            vero ratione quis laudantium voluptatibus iusto, cupiditate assumenda quos?
+                        </div>
+                        <div data-translater="about-description-3" class="aboutme-page__text box-description__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div data-translater="about-description-4" class="aboutme-page__text box-description__text">
+                            Voluptatum inventore reprehenderit
+                            vero ratione quis laudantium voluptatibus iusto, cupiditate assumenda quos?
+                        </div>
+                        <div data-translater="about-description-5" class="aboutme-page__text box-description__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div data-translater="about-description-6" class="aboutme-page__text box-description__text">
+                            Voluptatum inventore reprehenderit
+                            vero ratione quis laudantium voluptatibus iusto, cupiditate assumenda quos?
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer id="footer" class="footer-page">
             <div class="footer-page__contaner center">
@@ -565,7 +593,7 @@ slider();
         </div>
     </div>
 
-    <script src="js/sctipt.js"></script>
+    <script type="module" src="js/sctipt.js"></script>
 </body>
 
 </html>
