@@ -56,7 +56,8 @@ main>:nth-child(even) {
 }
 
 .deskription-header__contaner-leng {
-    position: fixed;
+    position: absolute;
+    top: 0px;
     right: 100px;
 }
 
@@ -102,6 +103,7 @@ main>:nth-child(even) {
 
 .bunner-page__contaner {
     display: flex;
+
 }
 
 .bunner-page__contaner>*:not(:last-child) {
