@@ -1,4 +1,4 @@
-import translate from '/js/translate.js';
+import translate from './translate.js';
 
 let scr = document.querySelector('.scroll-block');
 let content = document.querySelector('.wrapper');
