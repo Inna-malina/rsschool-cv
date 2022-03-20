@@ -56,10 +56,11 @@ main>:nth-child(even) {
 }
 
 .deskription-header__contaner-leng {
-    position: absolute;
+    position: fixed;
     top: 0px;
-    right: 100px;
+    right: 10%;
 }
+
 
 .leng-header {
     background-color: #00053869;
@@ -462,6 +463,12 @@ pre {
     }
 }
 
+@media (max-width: 1700px) {
+    .deskription-header__contaner-leng {
+        right: 20px;
+    }
+}
+
 @media (max-width: 1566px) {
     .ellipse-one {
         width: 100px;
@@ -586,6 +593,14 @@ pre {
 }
 
 @media (max-width: 900px) {
+    .leng-header__contaner {
+        padding: 12px;
+    }
+
+    .leng-header__contaner p {
+        font-size: 15px;
+
+    }
 
     .bunner-page__contaner>*:not(:last-child) {
         margin: 0px 50px 0px 0px;
@@ -634,6 +649,12 @@ pre {
 
     .portfolio-contaner__title {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 666px) {
+    .deskription-header__contaner-leng {
+        right: 0px;
     }
 }
 
@@ -710,7 +731,19 @@ pre {
     }
 }
 
+@media (max-width: 541px) {
+    .deskription-header__contaner-leng {
+        top: 45px;
+    }
+
+}
+
 @media (max-width: 475px) {
+
+    .deskription-header__contaner-leng {
+        top: 50px;
+    }
+
     .photo-bunner {
         display: none;
     }
@@ -752,6 +785,10 @@ pre {
 }
 
 @media (max-width: 370px) {
+    .deskription-header__contaner-leng {
+        top: 50px;
+    }
+
     .examplecode-page__code {
         font-size: 8px;
     }
@@ -759,4 +796,11 @@ pre {
     .myportfolio-page__portfolio-contaner>*:not(:last-child) {
         margin: 0px 0px 40px 0px;
     }
+}
+
+@media (max-width: 321px) {
+    .deskription-header__contaner-leng {
+        top: 0px;
+    }
+
 }
