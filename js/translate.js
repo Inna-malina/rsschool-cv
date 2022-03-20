@@ -15,7 +15,9 @@ const translate = {
         'about-description-7': 'I also love esotericism and astral travellings.',
         'skills-description-1': 'Also I can do dynamic layout and adaptive layout for different sizes of screens.',
         'skills-description-2': 'I use flexboxes, greeds, animation and etc.',
-        'skills-other': 'My other skills'
+        'skills-other': 'My other skills',
+        'example-code': 'Example code',
+        'courses': 'Courses'
     },
     'ru': {
         'name': 'Черкашина Инна Александровна',
@@ -33,7 +35,9 @@ const translate = {
         'about-description-7': 'А ещё я люблю эзотерику и астральные путешествия.',
         'skills-description-1': 'Так же я могу делать динамическую и адаптивную вёрстку для разных размеров экранов',
         'skills-description-2': 'Я использую флексбоксы, гриды, анимацию и т.д.',
-        'skills-other': 'Мои дополнительные навыки'
+        'skills-other': 'Мои дополнительные навыки',
+        'example-code': 'Пример кода',
+        'courses': 'Курсы'
     }
 };
 
